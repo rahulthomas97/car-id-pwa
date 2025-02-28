@@ -1,0 +1,22 @@
+{
+  "name": "car-id-pwa",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://rahulthomas97.github.io/car-id-pwa",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^3.0.0",
+    "vite-plugin-pwa": "^0.14.0"
+  }
+}
